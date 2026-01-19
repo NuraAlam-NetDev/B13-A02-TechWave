@@ -1,25 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>B13-A02-TechWave</title>
-</head>
-<body class="font-[Inter] bg-[#1A0B2E] text-[#FFFFFF]">
-    <header>
-        <nav class="px-7 py-1 flex justify-between items-center m-auto">
-            <h1 class="text-2xl" >Tech<span class="bg-gradient-to-r from-fuchsia-500 via-pink-500 to-purple-600 
-             bg-clip-text text-transparent">Wave</span></h1>
-            <ul class="font-medium text-base flex justify-between items-center gap-[70px]">
-                <li>About</li>
-                <li>Episodes</li>
-                <li>Host</li>
-            </ul>
-            <button class=" rounded-4xl font-semibold text-base  px-1 py-1 flex items-center gap-1 bg-gradient-to-r from-yellow-500 via-pink-500 to-purple-600 
-             ">Subscribe<i class="fa-solid fa-arrow-right "></i></button>
-        </nav>
+  </head>
+  <body class="font-[Inter] bg-[#1A0B2E] text-[#FFFFFF]">
+    <header class="pt-[20px]">
+      <nav class="px-7 py-1 flex justify-between items-center m-auto">
+        <h1 class="text-2xl">
+          Tech<span
+            class="bg-gradient-to-r from-fuchsia-500 via-pink-500 to-purple-600 bg-clip-text text-transparent"
+            >Wave</span
+          >
+        </h1>
+        <ul
+          class="font-medium text-base flex justify-between items-center gap-[70px]"
+        >
+          <li>About</li>
+          <li>Episodes</li>
+          <li>Host</li>
+        </ul>
+        <button
+          class="rounded-4xl font-semibold text-base px-1 py-1 flex items-center gap-1 bg-gradient-to-r from-yellow-500 via-pink-500 to-purple-600"
+        >
+          Subscribe<i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </nav>
+      <div
+        class=" bg-center bg-cover h-[500px] bg-[url(assets/hero-bg.png)] flex justify-center items-center"
+      >
+        <div  class="relative w-60 h-60 bg-center bg-cover bg-[url(assets/hero-circle.png)] flex flex-col justify-center items-center">
+            <img class="  " src="assets/microphone.png" alt="">
+            <button class="absolute top-3 right-3 bg-[#00FF88] font-semibold text-base text-[#1A0B2E] rounded-2xl px-2 py-1 ">New</button>
+        </div>
+      </div>
+      <div>
+        <h1 class="font-extrabold text-6xl text-[#FFFFFF]">TechWave</h1>
+        <p>
+Your daily dose of tech insights, productivity hacks, and personal growth
+        </p>
+        <div>
+            <button class="rounded-4xl font-semibold text-base px-1 py-1 flex items-center gap-1 bg-gradient-to-r from-yellow-500 via-pink-500 to-purple-600"><img src="assets/spotify.png" alt=""> Listen on Spotify</button>
+            <button class="border-[2PX] border-[#00FF88] px-1 py-1 text-[#00FF88]rounded-4xl font-semibold text-base  flex items-center gap-1"><img src="assets/message.png" alt="">Subscribe</button>
+        </div>
+      </div>
     </header>
-</body>
+  </body>
 </html>
