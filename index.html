@@ -14,7 +14,8 @@
     <title>TechWave</title>
   </head>
   <body class="font-[Inter] bg-[#1A0B2E] text-[#FFFFFF]">
-    <header class="pt-[20px]">
+    <div class="container mx-auto px-4">
+<header class=" mb-[60px]">
       <nav class="m-auto px-8 py-3 flex justify-between items-center">
         <h1 class="text-2xl">
           Tech<span
@@ -30,8 +31,7 @@
           <li><a href=""></a>Host</li>
         </ul>
         <button
-          class="rounded-4xl font-semibold text-base px-5 py-2
- flex items-center gap-1 bg-gradient-to-r from-yellow-500 via-pink-500 to-purple-600"
+          class="rounded-4xl font-semibold text-base px-5 py-2 flex items-center gap-1 bg-gradient-to-r from-yellow-500 via-pink-500 to-purple-600"
         >
           Subscribe<i class="fa-solid fa-arrow-right"></i>
         </button>
@@ -70,7 +70,7 @@
         </div>
       </div>
     </header>
-    <section>
+    <section class="mb-[60px]">
       <div class="pt-[100px] pb-[80px] text-center">
         <h1 class="font-bold text-5xl">About the Podcast</h1>
         <p class="font-normal text-base leading-[20px] pt-[16px]">
@@ -114,15 +114,20 @@
         </div>
       </div>
     </section>
-    <section class="pt-[100px] ">
+    <section class="mb-[60px]">
       <h1 class="leading-[50px] text-center font-bold text-5xl pb-[80px]">
         Why Choose TechWave
       </h1>
-      <div class=" grid grid-cols-3 grid-rows-3 gap-4 p-4 rounded-lg">
+      <div class="grid grid-cols-3 grid-rows-3 gap-4 p-4 rounded-lg">
         <div class="bg-[#230E3D] row-span-2 col-span-1 p-4 rounded-lg">
-          <img class="w-[60px] h-[60px]  p-[5px]
-" src="assets/headphone.png" alt="" />
-          <h1 class="p-[10px] font-bold text-2xl leading-[29px]">Premium Audio Quality</h1>
+          <img
+            class="w-[60px] h-[60px] p-[5px]"
+            src="assets/headphone.png"
+            alt=""
+          />
+          <h1 class="p-[10px] font-bold text-2xl leading-[29px]">
+            Premium Audio Quality
+          </h1>
           <p class="leading-[29px] font-normal text-base">
             Experience crystal-clear sound with professional-grade recording
             equipment and expert audio engineering. Every episode is mastered
@@ -131,7 +136,9 @@
         </div>
         <div class="bg-[#230E3D] row-span-1 col-span-2 p-4 rounded-lg">
           <img src="assets/device.png" alt="" />
-          <h1 class="p-[10px] font-bold text-2xl leading-[29px]">Mobile Friendly</h1>
+          <h1 class="p-[10px] font-bold text-2xl leading-[29px]">
+            Mobile Friendly
+          </h1>
           <p class="leading-[29px] font-normal text-base">
             Listen on the go with seamless mobile experience and offline
             downloads.
@@ -139,7 +146,9 @@
         </div>
         <div class="bg-[#230E3D] row-span-1 col-span-2 p-4 rounded-lg">
           <img src="assets/location.png" alt="" />
-          <h1 class="p-[10px] font-bold text-2xl leading-[29px]">Global Community</h1>
+          <h1 class="p-[10px] font-bold text-2xl leading-[29px]">
+            Global Community
+          </h1>
           <p class="leading-[29px] font-normal text-base">
             Experience crystal-clear sound with professional-grade recording
             equipment and expert audio engineering. Every episode is mastered
@@ -148,7 +157,9 @@
         </div>
         <div class="bg-[#230E3D] row-span-1 col-span-2 p-4 rounded-lg">
           <img src="assets/Icon (Stroke).png" alt="" />
-          <h1 class="p-[10px] font-bold text-2xl leading-[29px]">Exclusive Interviews</h1>
+          <h1 class="p-[10px] font-bold text-2xl leading-[29px]">
+            Exclusive Interviews
+          </h1>
           <p class="leading-[29px] font-normal text-base">
             Get unprecedented access to industry titans, startup founders, and
             tech visionaries. Our host secures exclusive conversations you won't
@@ -156,9 +167,13 @@
             success strategies.
           </p>
         </div>
-        <div class=" flex flex-col items-start bg-[#230E3D] row-span-1 col-span-1 p-4 rounded-lg">
+        <div
+          class="flex flex-col items-start bg-[#230E3D] row-span-1 col-span-1 p-4 rounded-lg"
+        >
           <img src="assets/resource.png" alt="" />
-          <h1 class="p-[10px] font-bold text-2xl leading-[29px]">Rich Resources</h1>
+          <h1 class="p-[10px] font-bold text-2xl leading-[29px]">
+            Rich Resources
+          </h1>
           <p class="leading-[29px] font-normal text-base">
             Access show notes, transcripts, and additional learning materials
             for every episode.
@@ -166,69 +181,129 @@
         </div>
       </div>
     </section>
-    <section class="p-4">
-        <h1 class="font-bold text-5xl text-center">Featured Episodes</h1>
-        <div class=" flex gap-4 p-6 ">
-        <div class="rounded-lg bg-[#230E3D] ">
-           
-            <iframe  class=" h-[214px] rounded-t-lg" src="https://www.youtube.com/embed/rfscVS0vtbw?si=7QxUzWhSf1_UGmJh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>PYTHON in Everyday Life</iframe>
-            <h1 class="font-bold text-2xl p-6">PYTHON in Everyday Life</h1>
-            <p class="font-normal text-base leading-[24px] p-3">Python is a high-level, interpreted programming language known for its simplicity and readability.</p>
-            <p class="flex gap-1 text-[#00FF88]"><img src="assets/clock.png" alt="">4 hours</p>
-        </div>
-        <div class="rounded-lg bg-[#230E3D] ">
-           
-            <iframe  class=" h-[214px] rounded-t-lg" src="https://www.youtube.com/embed/rfscVS0vtbw?si=7QxUzWhSf1_UGmJh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>PYTHON in Everyday Life</iframe>
-            <h1 class="font-bold text-2xl p-6">PYTHON in Everyday Life</h1>
-            <p class="font-normal text-base leading-[24px] p-3">Python is a high-level, interpreted programming language known for its simplicity and readability.</p>
-            <p class="flex gap-1 text-[#00FF88]"><img src="assets/clock.png" alt="">4 hours</p>
-        </div>
-        <div class="rounded-lg bg-[#230E3D] ">
-           
-            <iframe  class=" h-[214px] rounded-t-lg" src="https://www.youtube.com/embed/rfscVS0vtbw?si=7QxUzWhSf1_UGmJh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>PYTHON in Everyday Life</iframe>
-            <h1 class="font-bold text-2xl p-6">PYTHON in Everyday Life</h1>
-            <p class="font-normal text-base leading-[24px] p-3">Python is a high-level, interpreted programming language known for its simplicity and readability.</p>
-            <p class="flex gap-1 text-[#00FF88]"><img src="assets/clock.png" alt="">4 hours</p>
-        </div>
-        </div>
-        <div class="">
-            <h1 class="font-bold text-center text-5xl">Meet the Host</h1>
-            <div class="flex justify-center items-center gap-4 bg-[#230E3D] py-10]">
-                <div>
-                <img class="w-[500px] h-[300px] p-10" src="assets/host.png" alt="">
-                </div>
-                <div >
-                    <h1 class="font-bold text-4xl ">Alex Kumar</h1>
-                    <p class="leading-[24px]">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
-                    <div class="flex gap-2 rounded">
-                        <img src="assets/linkedin.png" alt="">
-                    <img src="assets/x.png" alt="">
-                    <img src="assets/instagram.png" alt="">
-                    <img src="assets/youtube.png" alt=""></div>
-                    
-                    
-                </div>
-        </div>
-            
-        </div>
-        
-    </section>
-    <footer class="text-center">
-     <h1 class="text-2xl">
-          Tech<span
-            class="bg-gradient-to-r from-fuchsia-500 via-pink-500 to-purple-600 bg-clip-text text-transparent"
-            >Wave</span
+    <section class="mb-[60px]">
+      <h1 class="font-bold text-5xl text-center mb-[60px]">
+        Featured Episodes
+      </h1>
+      <div class="flex gap-4 p-6">
+        <div class="rounded-lg bg-[#230E3D] flex-1 overflow-hidden">
+          <iframe
+            class="w-full  h-[214px] rounded-t-lg"
+            src="https://www.youtube.com/embed/rfscVS0vtbw?si=7QxUzWhSf1_UGmJh"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+            ></iframe
           >
-        </h1>
-        <div class="bg-center bg-cover h-[300px] bg-[url(assets/footer-bg.png)]">
-          <ul class="flex justify-center items-center gap-8">
-            <li><img src="assets/spotify.png" alt=""></li>
-            <li><img src="assets/apple-podcast.png" alt=""></li>
-            <li><img src="assets/youtube-podcast.png" alt=""></li>
-            <li><img src="assets/twitter.png" alt=""></li>
-          </ul>
-          <p>© 2026 TechWave Podcast. All rights reserved.</p>
+          <h1 class="font-bold text-2xl ">PYTHON in Everyday Life</h1>
+          <p class="font-normal text-base leading-[24px] ">
+            Python is a high-level, interpreted programming language known for
+            its simplicity and readability.
+          </p>
+          <p class="flex gap-1 text-[#00FF88]">
+            <img src="assets/clock.png" alt="" />4 hours
+          </p>
         </div>
+        <div class="rounded-lg bg-[#230E3D] flex-1 overflow-hidden">
+          <iframe class="w-full  h-[214px] rounded-t-lg" src="https://www.youtube.com/embed/DLX62G4lc44?si=XSByMUuY1CYzrK3q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          
+          <h1 class="font-bold text-2xl ">REACT in Everyday Life</h1>
+          <p class="font-normal text-base leading-[24px] ">
+            React is used in everyday life to build fast, interactive websites and apps we use daily, like Facebook, Instagram, Netflix, and online shopping platforms
+          </p>
+          <p class="flex gap-1 text-[#00FF88]">
+            <img src="assets/clock.png" alt="" />4 hours
+          </p>
+        </div>
+        <div class="rounded-lg bg-[#230E3D] flex-1 overflow-hidden">
+          <iframe class="w-full  h-[214px] rounded-t-lg"  src="https://www.youtube.com/embed/PkZNo7MFNFg?si=Re4gphUioPQYSHt5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          
+          <h1 class="font-bold text-2xl ">JAVASCRIPT in Everyday Life</h1>
+          <p class="font-normal text-base leading-[24px] ">
+            JavaScript is used in everyday life to make websites interactive, like showing pop-ups, sliders, and live form validation.
+          </p>
+          <p class="flex gap-1 text-[#00FF88]">
+            <img src="assets/clock.png" alt="" />4 hours
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="mb-[60px]">
+      <div class="">
+        <h1 class="font-bold text-center text-5xl mb-[60px]">Meet the Host</h1>
+        <div class="flex justify-center items-center gap-4 bg-[#230E3D] py-10]">
+          <div>
+            <img
+              class="w-[500px] h-[300px] p-10"
+              src="assets/host.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <h1 class="font-bold text-4xl">Alex Kumar</h1>
+            <p class="leading-[24px]">
+              Tech entrepreneur, productivity expert, and lifelong learner. Alex
+              has been in the tech industry for over 10 years, working with
+              startups and Fortune 500 companies. Through TechWave, Alex shares
+              insights from industry leaders and practical advice for anyone
+              looking to grow in tech.
+            </p>
+            <div class="flex gap-2">
+              <img
+                class="rounded-full border object-contain bg-[##533C72]"
+                src="assets/linkedin.png"
+                alt=""
+              />
+              <img
+                class="rounded-full border object-contain bg-[#230E3D]"
+                src="assets/x.png"
+                alt=""
+              />
+              <img
+                class="rounded-full border object-contain bg-[#230E3D]"
+                src="assets/instagram.png"
+                alt=""
+              />
+              <img
+                class="rounded-full border object-contain bg-[#230E3D]"
+                src="assets/youtube.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="text-center ">
+      <h1 class="font-extrabold text-6xl mb-[60px]">
+        Tech<span
+          class="bg-gradient-to-r from-fuchsia-500 via-pink-500 to-purple-600 bg-clip-text text-transparent"
+          >Wave</span
+        >
+      </h1>
+      <div class="bg-center bg-cover bg-[url(assets/footer-bg.png)]">
+        <ul class="flex justify-center items-center gap-5 pt-[100px]">
+          <li class="flex justify-center items-center font-medium">
+            <img src="assets/spotify.png" alt="" />Spotify
+          </li>
+          <li class="flex justify-center items-center font-medium">
+            <img src="assets/apple-podcast.png" alt="" />Apple podcast
+          </li>
+          <li class="flex justify-center items-center font-medium">
+            <img src="assets/youtube-podcast.png" alt="" />Youtube
+          </li>
+          <li class="flex justify-center items-center font-medium">
+            <img src="assets/twitter.png" alt="" />Twitter
+          </li>
+        </ul>
+        <p class="pt-[40px] text-[#FAFAFA]">
+          © 2026 TechWave Podcast. All rights reserved.
+        </p>
+      </div>
     </footer>
+    </div>
+    
   </body>
 </html>
